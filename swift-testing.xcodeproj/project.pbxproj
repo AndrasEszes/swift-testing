@@ -45,11 +45,6 @@
 			path = "swift-testingTests";
 			sourceTree = "<group>";
 		};
-		CE8498112EA78BF400748221 /* swift-testingUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "swift-testingUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +78,6 @@
 				CE8498212EA78DC400748221 /* TestPlan.xctestplan */,
 				CE8497F92EA78BF300748221 /* swift-testing */,
 				CE8498072EA78BF400748221 /* swift-testingTests */,
-				CE8498112EA78BF400748221 /* swift-testingUITests */,
 				CE8497F82EA78BF300748221 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,9 +152,6 @@
 			);
 			dependencies = (
 				CE8498102EA78BF400748221 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CE8498112EA78BF400748221 /* swift-testingUITests */,
 			);
 			name = "swift-testingUITests";
 			packageProductDependencies = (

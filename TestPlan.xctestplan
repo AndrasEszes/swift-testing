@@ -18,14 +18,6 @@
         "identifier" : "CE8498032EA78BF400748221",
         "name" : "swift-testingTests"
       }
-    },
-    {
-      "parallelizable" : true,
-      "target" : {
-        "containerPath" : "container:swift-testing.xcodeproj",
-        "identifier" : "CE84980D2EA78BF400748221",
-        "name" : "swift-testingUITests"
-      }
     }
   ],
   "version" : 1
