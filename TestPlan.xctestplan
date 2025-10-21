@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "A22AAD46-F403-40E7-9A1E-22B59AC600C1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:swift-testing.xcodeproj",
+        "identifier" : "CE8498032EA78BF400748221",
+        "name" : "swift-testingTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:swift-testing.xcodeproj",
+        "identifier" : "CE84980D2EA78BF400748221",
+        "name" : "swift-testingUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
