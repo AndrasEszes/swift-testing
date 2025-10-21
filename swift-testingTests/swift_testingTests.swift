@@ -15,4 +15,9 @@ struct swift_testingTests {
         #expect(2 + 2 == 4)
     }
 
+    @Test func failingExample() async throws {
+        // This test is intended to fail to demonstrate test failure reporting.
+        #expect(2 + 2 == 5)
+    }
+
 }
